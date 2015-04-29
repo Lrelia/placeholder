@@ -45,7 +45,7 @@ function placeholder() {
 			that.children[0].onblur = function () {
 				if (this.value == "") that.children[1].style.display = "inline";
 			};
-			this.children[1].style.display = "none";
+			that.children[1].style.display = "none";
 		};
 	}
 }
